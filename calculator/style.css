@@ -8,6 +8,21 @@ body{
     background: radial-gradient(circle at top,#181616);
 }
 
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+  color:#a17091;
+  margin-bottom:30px;
+  font-size: 45px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
 .calculator{
     background:rgba(19, 18, 18, 0.95) ;
     padding: 20px;
